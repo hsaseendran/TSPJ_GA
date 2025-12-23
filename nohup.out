@@ -1,0 +1,1247 @@
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+GNU parallel not found. Using background jobs instead.
+[GPU 1] Running Exp 1 Run 2: Pop=1000 Mut=0.2 Tour=3
+[GPU 2] Running Exp 1 Run 3: Pop=1000 Mut=0.2 Tour=3
+[GPU 0] Running Exp 1 Run 1: Pop=1000 Mut=0.2 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_2
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+[GPU 4] Running Exp 2 Run 2: Pop=1000 Mut=0.2 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_2 -c
+[GPU 3] Running Exp 2 Run 1: Pop=1000 Mut=0.2 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_1 -c
+[GPU 5] Running Exp 2 Run 3: Pop=1000 Mut=0.2 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_3 -c
+[GPU 7] Running Exp 3 Run 2: Pop=1000 Mut=0.2 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_2
+[GPU 6] Running Exp 3 Run 1: Pop=1000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_1
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+GNU parallel not found. Using background jobs instead.
+[GPU 3] Running Exp 2 Run 1: Pop=1000 Mut=0.2 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_1 -c
+[GPU 4] Running Exp 2 Run 2: Pop=1000 Mut=0.2 Tour=5
+[GPU 0] Running Exp 1 Run 1: Pop=1000 Mut=0.2 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_2 -c
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+[GPU 2] Running Exp 1 Run 3: Pop=1000 Mut=0.2 Tour=3
+[GPU 1] Running Exp 1 Run 2: Pop=1000 Mut=0.2 Tour=3
+[GPU 5] Running Exp 2 Run 3: Pop=1000 Mut=0.2 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_2
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_3 -c
+[GPU 7] Running Exp 3 Run 2: Pop=1000 Mut=0.2 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_2
+[GPU 6] Running Exp 3 Run 1: Pop=1000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_1
+[GPU 0] Exp 1 Run 1 completed successfully
+[GPU 2] Exp 1 Run 3 completed successfully
+[GPU 1] Exp 1 Run 2 completed successfully
+[GPU 4] Exp 2 Run 2 completed successfully
+Generating job queue...
+Total jobs: 81
+Using 8 GPUs
+==================================================
+./run_taguchi_gpu_parallel.sh: line 142: syntax error near unexpected token `('
+./run_taguchi_gpu_parallel.sh: line 142: `        run_single_experiment {1} {2} {3} {4} {5} {6} {7} {8} {=(({#} - 1) % 8)=}'
+Cleaning previous results...
+Generating job queue...
+Total jobs: 81
+Using 8 GPUs
+==================================================
+./run_taguchi_gpu_parallel.sh: line 142: syntax error near unexpected token `('
+./run_taguchi_gpu_parallel.sh: line 142: `        run_single_experiment {1} {2} {3} {4} {5} {6} {7} {8} {=(({#} - 1) % 8)=}'
+[GPU 0] WARNING: No results for Exp 1 Run 1
+[GPU 2] WARNING: No results for Exp 1 Run 3
+[GPU 5] WARNING: No results for Exp 2 Run 3
+[GPU 1] WARNING: No results for Exp 1 Run 2
+[GPU 7] WARNING: No results for Exp 3 Run 2
+[GPU 4] WARNING: No results for Exp 2 Run 2
+[GPU 6] WARNING: No results for Exp 3 Run 1
+[GPU 3] WARNING: No results for Exp 2 Run 1
+Completed batch: 8/81
+[GPU 1] Running Exp 4 Run 1: Pop=1000 Mut=0.3 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_1 -c
+[GPU 0] Running Exp 3 Run 3: Pop=1000 Mut=0.2 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_3
+[GPU 2] Running Exp 4 Run 2: Pop=1000 Mut=0.3 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_2 -c
+[GPU 4] Running Exp 5 Run 1: Pop=1000 Mut=0.3 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_1
+[GPU 3] Running Exp 4 Run 3: Pop=1000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_3 -c
+[GPU 5] Running Exp 5 Run 2: Pop=1000 Mut=0.3 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_2
+[GPU 6] Running Exp 5 Run 3: Pop=1000 Mut=0.3 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_3
+[GPU 7] Running Exp 6 Run 1: Pop=1000 Mut=0.3 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_1 -c
+Cleaning previous results...
+Creating job queue...
+Experiment 1: 1000 0.2 3 15 1000 0
+Experiment 2: 1000 0.2 5 20 1500 1
+Experiment 3: 1000 0.2 7 30 2000 0
+Experiment 4: 1000 0.3 3 20 2000 1
+Experiment 5: 1000 0.3 5 30 1000 0
+Experiment 6: 1000 0.3 7 15 1500 1
+Experiment 7: 1000 0.4 3 30 1500 0
+Experiment 8: 1000 0.4 5 15 2000 1
+Experiment 9: 1000 0.4 7 20 1000 0
+Experiment 10: 2000 0.2 3 30 2000 1
+Experiment 11: 2000 0.2 5 15 1000 0
+Experiment 12: 2000 0.2 7 20 1500 1
+Experiment 13: 2000 0.3 3 15 1500 0
+Experiment 14: 2000 0.3 5 20 2000 1
+Experiment 15: 2000 0.3 7 30 1000 0
+Experiment 16: 2000 0.4 3 20 1000 1
+Experiment 17: 2000 0.4 5 30 1500 0
+Experiment 18: 2000 0.4 7 15 2000 1
+Experiment 19: 3000 0.2 3 20 1500 0
+Experiment 20: 3000 0.2 5 30 2000 1
+Experiment 21: 3000 0.2 7 15 1000 0
+Experiment 22: 3000 0.3 3 30 1000 1
+Experiment 23: 3000 0.3 5 15 1500 0
+Experiment 24: 3000 0.3 7 20 2000 1
+Experiment 25: 3000 0.4 3 15 2000 0
+Experiment 26: 3000 0.4 5 20 1000 1
+Experiment 27: 3000 0.4 7 30 1500 0
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+./run_taguchi_gpu_parallel.sh: line 185: syntax error near unexpected token `done'
+./run_taguchi_gpu_parallel.sh: line 185: `    done'
+Cleaning previous results...
+Creating job queue...
+Experiment 1: 1000 0.2 3 15 1000 0
+Experiment 2: 1000 0.2 5 20 1500 1
+Experiment 3: 1000 0.2 7 30 2000 0
+Experiment 4: 1000 0.3 3 20 2000 1
+Experiment 5: 1000 0.3 5 30 1000 0
+Experiment 6: 1000 0.3 7 15 1500 1
+Experiment 7: 1000 0.4 3 30 1500 0
+Experiment 8: 1000 0.4 5 15 2000 1
+Experiment 9: 1000 0.4 7 20 1000 0
+Experiment 10: 2000 0.2 3 30 2000 1
+Experiment 11: 2000 0.2 5 15 1000 0
+Experiment 12: 2000 0.2 7 20 1500 1
+Experiment 13: 2000 0.3 3 15 1500 0
+Experiment 14: 2000 0.3 5 20 2000 1
+Experiment 15: 2000 0.3 7 30 1000 0
+Experiment 16: 2000 0.4 3 20 1000 1
+Experiment 17: 2000 0.4 5 30 1500 0
+Experiment 18: 2000 0.4 7 15 2000 1
+Experiment 19: 3000 0.2 3 20 1500 0
+Experiment 20: 3000 0.2 5 30 2000 1
+Experiment 21: 3000 0.2 7 15 1000 0
+Experiment 22: 3000 0.3 3 30 1000 1
+Experiment 23: 3000 0.3 5 15 1500 0
+Experiment 24: 3000 0.3 7 20 2000 1
+Experiment 25: 3000 0.4 3 15 2000 0
+Experiment 26: 3000 0.4 5 20 1000 1
+Experiment 27: 3000 0.4 7 30 1500 0
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+./run_taguchi_gpu_parallel.sh: line 185: syntax error near unexpected token `done'
+./run_taguchi_gpu_parallel.sh: line 185: `    done'
+Creating job queue...
+Experiment 1: 1000 0.2 3 15 1000 0
+Experiment 2: 1000 0.2 5 20 1500 1
+Experiment 3: 1000 0.2 7 30 2000 0
+Experiment 4: 1000 0.3 3 20 2000 1
+Experiment 5: 1000 0.3 5 30 1000 0
+Experiment 6: 1000 0.3 7 15 1500 1
+Experiment 7: 1000 0.4 3 30 1500 0
+Experiment 8: 1000 0.4 5 15 2000 1
+Experiment 9: 1000 0.4 7 20 1000 0
+Experiment 10: 2000 0.2 3 30 2000 1
+Experiment 11: 2000 0.2 5 15 1000 0
+Experiment 12: 2000 0.2 7 20 1500 1
+Experiment 13: 2000 0.3 3 15 1500 0
+Experiment 14: 2000 0.3 5 20 2000 1
+Experiment 15: 2000 0.3 7 30 1000 0
+Experiment 16: 2000 0.4 3 20 1000 1
+Experiment 17: 2000 0.4 5 30 1500 0
+Experiment 18: 2000 0.4 7 15 2000 1
+Experiment 19: 3000 0.2 3 20 1500 0
+Experiment 20: 3000 0.2 5 30 2000 1
+Experiment 21: 3000 0.2 7 15 1000 0
+Experiment 22: 3000 0.3 3 30 1000 1
+Experiment 23: 3000 0.3 5 15 1500 0
+Experiment 24: 3000 0.3 7 20 2000 1
+Experiment 25: 3000 0.4 3 15 2000 0
+Experiment 26: 3000 0.4 5 20 1000 1
+Experiment 27: 3000 0.4 7 30 1500 0
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+./run_taguchi_gpu_parallel.sh: line 185: syntax error near unexpected token `done'
+./run_taguchi_gpu_parallel.sh: line 185: `    done'
+[GPU 6] WARNING: No results for Exp 3 Run 1
+[GPU 3] WARNING: No results for Exp 4 Run 3
+[GPU 5] WARNING: No results for Exp 5 Run 2
+[GPU 1] WARNING: No results for Exp 4 Run 1
+[GPU 2] WARNING: No results for Exp 4 Run 2
+[GPU 4] WARNING: No results for Exp 5 Run 1
+[GPU 6] WARNING: No results for Exp 5 Run 3
+[GPU 7] WARNING: No results for Exp 3 Run 2
+[GPU 0] WARNING: No results for Exp 3 Run 3
+[GPU 3] WARNING: No results for Exp 2 Run 1
+[GPU 5] WARNING: No results for Exp 2 Run 3
+Completed batch: 8/81
+[GPU 1] Running Exp 4 Run 1: Pop=1000 Mut=0.3 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_1 -c
+[GPU 0] Running Exp 3 Run 3: Pop=1000 Mut=0.2 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_3
+[GPU 2] Running Exp 4 Run 2: Pop=1000 Mut=0.3 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_2 -c
+[GPU 3] Running Exp 4 Run 3: Pop=1000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_3 -c
+[GPU 5] Running Exp 5 Run 2: Pop=1000 Mut=0.3 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_2
+[GPU 4] Running Exp 5 Run 1: Pop=1000 Mut=0.3 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_1
+[GPU 6] Running Exp 5 Run 3: Pop=1000 Mut=0.3 Tour=5
+[GPU 7] Running Exp 6 Run 1: Pop=1000 Mut=0.3 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_1 -c
+[GPU 7] WARNING: No results for Exp 6 Run 1
+Completed batch: 16/81
+[GPU 0] Running Exp 6 Run 2: Pop=1000 Mut=0.3 Tour=7
+[GPU 2] Running Exp 7 Run 1: Pop=1000 Mut=0.4 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_2 -c
+[GPU 1] Running Exp 6 Run 3: Pop=1000 Mut=0.3 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_1
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_3 -c
+[GPU 3] Running Exp 7 Run 2: Pop=1000 Mut=0.4 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_2
+[GPU 4] Running Exp 7 Run 3: Pop=1000 Mut=0.4 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_3
+[GPU 6] Running Exp 8 Run 2: Pop=1000 Mut=0.4 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_2 -c
+[GPU 7] Running Exp 8 Run 3: Pop=1000 Mut=0.4 Tour=5
+[GPU 5] Running Exp 8 Run 1: Pop=1000 Mut=0.4 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_3 -c
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_1 -c
+[GPU 6] WARNING: No results for Exp 5 Run 3
+[GPU 3] WARNING: No results for Exp 4 Run 3
+[GPU 4] WARNING: No results for Exp 5 Run 1
+[GPU 5] WARNING: No results for Exp 5 Run 2
+[GPU 0] WARNING: No results for Exp 6 Run 2
+[GPU 1] WARNING: No results for Exp 6 Run 3
+[GPU 6] WARNING: No results for Exp 8 Run 2
+[GPU 1] WARNING: No results for Exp 4 Run 1
+[GPU 4] WARNING: No results for Exp 7 Run 3
+[GPU 5] WARNING: No results for Exp 8 Run 1
+[GPU 2] WARNING: No results for Exp 7 Run 1
+[GPU 0] WARNING: No results for Exp 3 Run 3
+[GPU 3] WARNING: No results for Exp 7 Run 2
+[GPU 7] WARNING: No results for Exp 6 Run 1
+[GPU 2] WARNING: No results for Exp 4 Run 2
+Completed batch: 16/81
+[GPU 1] Running Exp 6 Run 3: Pop=1000 Mut=0.3 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_3 -c
+[GPU 2] Running Exp 7 Run 1: Pop=1000 Mut=0.4 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_1
+[GPU 0] Running Exp 6 Run 2: Pop=1000 Mut=0.3 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_2 -c
+[GPU 5] Running Exp 8 Run 1: Pop=1000 Mut=0.4 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_1 -c
+[GPU 3] Running Exp 7 Run 2: Pop=1000 Mut=0.4 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_2
+[GPU 4] Running Exp 7 Run 3: Pop=1000 Mut=0.4 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_3
+[GPU 6] Running Exp 8 Run 2: Pop=1000 Mut=0.4 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_2 -c
+[GPU 7] Running Exp 8 Run 3: Pop=1000 Mut=0.4 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_3 -c
+[GPU 7] WARNING: No results for Exp 8 Run 3
+Completed batch: 24/81
+[GPU 4] Running Exp 10 Run 2: Pop=2000 Mut=0.2 Tour=3
+[GPU 0] Running Exp 9 Run 1: Pop=1000 Mut=0.4 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_2 -c
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_1
+[GPU 2] Running Exp 9 Run 3: Pop=1000 Mut=0.4 Tour=7
+[GPU 3] Running Exp 10 Run 1: Pop=2000 Mut=0.2 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_1 -c
+[GPU 1] Running Exp 9 Run 2: Pop=1000 Mut=0.4 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_2
+[GPU 5] Running Exp 10 Run 3: Pop=2000 Mut=0.2 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_3 -c
+[GPU 6] Running Exp 11 Run 1: Pop=2000 Mut=0.2 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_1
+[GPU 7] Running Exp 11 Run 2: Pop=2000 Mut=0.2 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_2
+[GPU 0] WARNING: No results for Exp 6 Run 2
+[GPU 3] WARNING: No results for Exp 10 Run 1
+[GPU 4] WARNING: No results for Exp 10 Run 2
+[GPU 2] WARNING: No results for Exp 7 Run 1
+[GPU 0] WARNING: No results for Exp 9 Run 1
+[GPU 1] WARNING: No results for Exp 9 Run 2
+[GPU 1] WARNING: No results for Exp 6 Run 3
+[GPU 3] WARNING: No results for Exp 7 Run 2
+[GPU 5] WARNING: No results for Exp 8 Run 1
+[GPU 2] WARNING: No results for Exp 9 Run 3
+[GPU 7] WARNING: No results for Exp 11 Run 2
+[GPU 6] WARNING: No results for Exp 11 Run 1
+[GPU 4] WARNING: No results for Exp 7 Run 3
+[GPU 6] WARNING: No results for Exp 8 Run 2
+[GPU 5] WARNING: No results for Exp 10 Run 3
+Completed batch: 32/81
+[GPU 1] Running Exp 12 Run 1: Pop=2000 Mut=0.2 Tour=7
+[GPU 0] Running Exp 11 Run 3: Pop=2000 Mut=0.2 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_1 -c
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_3
+[GPU 2] Running Exp 12 Run 2: Pop=2000 Mut=0.2 Tour=7
+[GPU 6] Running Exp 13 Run 3: Pop=2000 Mut=0.3 Tour=3
+[GPU 3] Running Exp 12 Run 3: Pop=2000 Mut=0.2 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_2 -c
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_3
+[GPU 5] Running Exp 13 Run 2: Pop=2000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_3 -c
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_2
+[GPU 4] Running Exp 13 Run 1: Pop=2000 Mut=0.3 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_1
+[GPU 7] Running Exp 14 Run 1: Pop=2000 Mut=0.3 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_1 -c
+[GPU 7] WARNING: No results for Exp 8 Run 3
+Completed batch: 24/81
+[GPU 0] Running Exp 9 Run 1: Pop=1000 Mut=0.4 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_1
+[GPU 5] Running Exp 10 Run 3: Pop=2000 Mut=0.2 Tour=3
+[GPU 1] Running Exp 9 Run 2: Pop=1000 Mut=0.4 Tour=7
+[GPU 2] Running Exp 9 Run 3: Pop=1000 Mut=0.4 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_3 -c
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_2
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_3
+[GPU 4] Running Exp 10 Run 2: Pop=2000 Mut=0.2 Tour=3
+[GPU 6] Running Exp 11 Run 1: Pop=2000 Mut=0.2 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_2 -c
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_1
+[GPU 3] Running Exp 10 Run 1: Pop=2000 Mut=0.2 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_1 -c
+[GPU 7] Running Exp 11 Run 2: Pop=2000 Mut=0.2 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_2
+[GPU 0] WARNING: No results for Exp 11 Run 3
+[GPU 5] WARNING: No results for Exp 13 Run 2
+[GPU 7] WARNING: No results for Exp 14 Run 1
+[GPU 6] WARNING: No results for Exp 13 Run 3
+[GPU 1] WARNING: No results for Exp 9 Run 2
+[GPU 0] WARNING: No results for Exp 9 Run 1
+[GPU 2] WARNING: No results for Exp 12 Run 2
+[GPU 5] WARNING: No results for Exp 10 Run 3
+[GPU 4] WARNING: No results for Exp 13 Run 1
+[GPU 3] WARNING: No results for Exp 10 Run 1
+[GPU 7] WARNING: No results for Exp 11 Run 2
+[GPU 3] WARNING: No results for Exp 12 Run 3
+[GPU 2] Exp 9 Run 3 completed successfully
+[GPU 4] WARNING: No results for Exp 10 Run 2
+[GPU 1] WARNING: No results for Exp 12 Run 1
+Completed batch: 40/81
+[GPU 0] Running Exp 14 Run 2: Pop=2000 Mut=0.3 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_2 -c
+[GPU 2] Running Exp 15 Run 1: Pop=2000 Mut=0.3 Tour=7
+[GPU 1] Running Exp 14 Run 3: Pop=2000 Mut=0.3 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_1
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_3 -c
+[GPU 4] Running Exp 15 Run 3: Pop=2000 Mut=0.3 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_3
+[GPU 5] Running Exp 16 Run 1: Pop=2000 Mut=0.4 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_1 -c
+[GPU 3] Running Exp 15 Run 2: Pop=2000 Mut=0.3 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_2
+[GPU 6] Running Exp 16 Run 2: Pop=2000 Mut=0.4 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_2 -c
+[GPU 7] Running Exp 16 Run 3: Pop=2000 Mut=0.4 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_3 -c
+[GPU 6] WARNING: No results for Exp 11 Run 1
+Completed batch: 32/81
+[GPU 0] Running Exp 11 Run 3: Pop=2000 Mut=0.2 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_3
+[GPU 1] Running Exp 12 Run 1: Pop=2000 Mut=0.2 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_1 -c
+[GPU 2] Running Exp 12 Run 2: Pop=2000 Mut=0.2 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_2 -c
+[GPU 3] Running Exp 12 Run 3: Pop=2000 Mut=0.2 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_3 -c
+[GPU 4] Running Exp 13 Run 1: Pop=2000 Mut=0.3 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_1
+[GPU 5] Running Exp 13 Run 2: Pop=2000 Mut=0.3 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_2
+[GPU 7] Running Exp 14 Run 1: Pop=2000 Mut=0.3 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_1 -c
+[GPU 6] Running Exp 13 Run 3: Pop=2000 Mut=0.3 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_3
+[GPU 2] WARNING: No results for Exp 15 Run 1
+[GPU 0] WARNING: No results for Exp 14 Run 2
+[GPU 3] WARNING: No results for Exp 15 Run 2
+[GPU 5] WARNING: No results for Exp 13 Run 2
+[GPU 2] WARNING: No results for Exp 12 Run 2
+[GPU 5] WARNING: No results for Exp 16 Run 1
+[GPU 1] WARNING: No results for Exp 14 Run 3
+[GPU 4] WARNING: No results for Exp 15 Run 3
+[GPU 6] WARNING: No results for Exp 16 Run 2
+[GPU 7] WARNING: No results for Exp 16 Run 3
+Completed batch: 48/81
+[GPU 1] Running Exp 17 Run 2: Pop=2000 Mut=0.4 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_2
+[GPU 2] Running Exp 17 Run 3: Pop=2000 Mut=0.4 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_3
+[GPU 0] Running Exp 17 Run 1: Pop=2000 Mut=0.4 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_1
+[GPU 6] Running Exp 19 Run 1: Pop=3000 Mut=0.2 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_1
+[GPU 5] Running Exp 18 Run 3: Pop=2000 Mut=0.4 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_3 -c
+[GPU 4] Running Exp 18 Run 2: Pop=2000 Mut=0.4 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_2 -c
+[GPU 7] Running Exp 19 Run 2: Pop=3000 Mut=0.2 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_2
+[GPU 3] Running Exp 18 Run 1: Pop=2000 Mut=0.4 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_1 -c
+[GPU 0] WARNING: No results for Exp 11 Run 3
+[GPU 6] WARNING: No results for Exp 13 Run 3
+[GPU 1] WARNING: No results for Exp 12 Run 1
+[GPU 4] WARNING: No results for Exp 13 Run 1
+[GPU 3] WARNING: No results for Exp 12 Run 3
+[GPU 7] WARNING: No results for Exp 14 Run 1
+Completed batch: 40/81
+[GPU 2] Running Exp 15 Run 1: Pop=2000 Mut=0.3 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_1
+[GPU 0] Running Exp 14 Run 2: Pop=2000 Mut=0.3 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_2 -c
+[GPU 1] Running Exp 14 Run 3: Pop=2000 Mut=0.3 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_3 -c
+[GPU 5] Running Exp 16 Run 1: Pop=2000 Mut=0.4 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_1 -c
+[GPU 3] Running Exp 15 Run 2: Pop=2000 Mut=0.3 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_2
+[GPU 4] Running Exp 15 Run 3: Pop=2000 Mut=0.3 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_3
+[GPU 7] Running Exp 16 Run 3: Pop=2000 Mut=0.4 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_3 -c
+[GPU 6] Running Exp 16 Run 2: Pop=2000 Mut=0.4 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_2 -c
+[GPU 1] WARNING: No results for Exp 17 Run 2
+[GPU 2] WARNING: No results for Exp 17 Run 3
+[GPU 3] WARNING: No results for Exp 15 Run 2
+[GPU 3] WARNING: No results for Exp 18 Run 1
+[GPU 1] WARNING: No results for Exp 14 Run 3
+[GPU 7] WARNING: No results for Exp 16 Run 3
+[GPU 7] WARNING: No results for Exp 19 Run 2
+[GPU 4] WARNING: No results for Exp 18 Run 2
+[GPU 0] WARNING: No results for Exp 17 Run 1
+[GPU 2] WARNING: No results for Exp 15 Run 1
+[GPU 6] WARNING: No results for Exp 16 Run 2
+[GPU 5] WARNING: No results for Exp 16 Run 1
+[GPU 0] WARNING: No results for Exp 14 Run 2
+[GPU 4] WARNING: No results for Exp 15 Run 3
+Completed batch: 48/81
+[GPU 3] Running Exp 18 Run 1: Pop=2000 Mut=0.4 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_1 -c
+[GPU 1] Running Exp 17 Run 2: Pop=2000 Mut=0.4 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_2
+[GPU 6] Running Exp 19 Run 1: Pop=3000 Mut=0.2 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_1
+[GPU 2] Running Exp 17 Run 3: Pop=2000 Mut=0.4 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_3
+[GPU 0] Running Exp 17 Run 1: Pop=2000 Mut=0.4 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_1
+[GPU 5] Running Exp 18 Run 3: Pop=2000 Mut=0.4 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_3 -c
+[GPU 7] Running Exp 19 Run 2: Pop=3000 Mut=0.2 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_2
+[GPU 4] Running Exp 18 Run 2: Pop=2000 Mut=0.4 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_2 -c
+[GPU 5] WARNING: No results for Exp 18 Run 3
+[GPU 6] WARNING: No results for Exp 19 Run 1
+Completed batch: 56/81
+[GPU 0] Running Exp 19 Run 3: Pop=3000 Mut=0.2 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_3
+[GPU 3] Running Exp 20 Run 3: Pop=3000 Mut=0.2 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_20/run_3 -c
+[GPU 2] Running Exp 20 Run 2: Pop=3000 Mut=0.2 Tour=5
+[GPU 7] Running Exp 22 Run 1: Pop=3000 Mut=0.3 Tour=3
+[GPU 1] Running Exp 20 Run 1: Pop=3000 Mut=0.2 Tour=5
+[GPU 6] Running Exp 21 Run 3: Pop=3000 Mut=0.2 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_20/run_2 -c
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 3 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_22/run_1 -c
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_20/run_1 -c
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 7 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_21/run_3
+[GPU 4] Running Exp 21 Run 1: Pop=3000 Mut=0.2 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 7 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_21/run_1
+[GPU 5] Running Exp 21 Run 2: Pop=3000 Mut=0.2 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 7 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_21/run_2
+Creating job queue...
+Experiment 1: 1000 0.2 3 15 1000 0
+Experiment 2: 1000 0.2 5 20 1500 1
+Experiment 3: 1000 0.2 7 30 2000 0
+Experiment 4: 1000 0.3 3 20 2000 1
+Experiment 5: 1000 0.3 5 30 1000 0
+Experiment 6: 1000 0.3 7 15 1500 1
+Experiment 7: 1000 0.4 3 30 1500 0
+Experiment 8: 1000 0.4 5 15 2000 1
+Experiment 9: 1000 0.4 7 20 1000 0
+Experiment 10: 2000 0.2 3 30 2000 1
+Experiment 11: 2000 0.2 5 15 1000 0
+Experiment 12: 2000 0.2 7 20 1500 1
+Experiment 13: 2000 0.3 3 15 1500 0
+Experiment 14: 2000 0.3 5 20 2000 1
+Experiment 15: 2000 0.3 7 30 1000 0
+Experiment 16: 2000 0.4 3 20 1000 1
+Experiment 17: 2000 0.4 5 30 1500 0
+Experiment 18: 2000 0.4 7 15 2000 1
+Experiment 19: 3000 0.2 3 20 1500 0
+Experiment 20: 3000 0.2 5 30 2000 1
+Experiment 21: 3000 0.2 7 15 1000 0
+Experiment 22: 3000 0.3 3 30 1000 1
+Experiment 23: 3000 0.3 5 15 1500 0
+Experiment 24: 3000 0.3 7 20 2000 1
+Experiment 25: 3000 0.4 3 15 2000 0
+Experiment 26: 3000 0.4 5 20 1000 1
+Experiment 27: 3000 0.4 7 30 1500 0
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+./run_taguchi_gpu_parallel.sh: line 185: syntax error near unexpected token `done'
+./run_taguchi_gpu_parallel.sh: line 185: `    done'
+Starting Taguchi experiments at 20250719_045851
+Appending to existing summary file...
+==================================================
+Running Experiment 1 of 27
+Parameters: Pop=1000, Mut=0.2, Tour=3, Div=15, Stag=1000, Cost=0
+==================================================
+  Run 1 of 3...
+  Command: ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+  Logging to: taguchi_results/exp_1/run_1/output.txt
+Creating job queue...
+Experiment 1: 1000 0.2 3 15 1000 0
+Experiment 2: 1000 0.2 5 20 1500 1
+Experiment 3: 1000 0.2 7 30 2000 0
+Experiment 4: 1000 0.3 3 20 2000 1
+Experiment 5: 1000 0.3 5 30 1000 0
+Experiment 6: 1000 0.3 7 15 1500 1
+Experiment 7: 1000 0.4 3 30 1500 0
+Experiment 8: 1000 0.4 5 15 2000 1
+Experiment 9: 1000 0.4 7 20 1000 0
+Experiment 10: 2000 0.2 3 30 2000 1
+Experiment 11: 2000 0.2 5 15 1000 0
+Experiment 12: 2000 0.2 7 20 1500 1
+Experiment 13: 2000 0.3 3 15 1500 0
+Experiment 14: 2000 0.3 5 20 2000 1
+Experiment 15: 2000 0.3 7 30 1000 0
+Experiment 16: 2000 0.4 3 20 1000 1
+Experiment 17: 2000 0.4 5 30 1500 0
+Experiment 18: 2000 0.4 7 15 2000 1
+Experiment 19: 3000 0.2 3 20 1500 0
+Experiment 20: 3000 0.2 5 30 2000 1
+Experiment 21: 3000 0.2 7 15 1000 0
+Experiment 22: 3000 0.3 3 30 1000 1
+Experiment 23: 3000 0.3 5 15 1500 0
+Experiment 24: 3000 0.3 7 20 2000 1
+Experiment 25: 3000 0.4 3 15 2000 0
+Experiment 26: 3000 0.4 5 20 1000 1
+Experiment 27: 3000 0.4 7 30 1500 0
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+./run_taguchi_gpu_parallel.sh: line 185: syntax error near unexpected token `done'
+./run_taguchi_gpu_parallel.sh: line 185: `    done'
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+GNU parallel not found. Using background jobs instead.
+[GPU 0] Running Exp 1 Run 1: Pop=1000 Mut=0.2 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+[GPU 1] Running Exp 1 Run 2: Pop=1000 Mut=0.2 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_2
+[GPU 3] Running Exp 2 Run 1: Pop=1000 Mut=0.2 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_1 -c
+[GPU 2] Running Exp 1 Run 3: Pop=1000 Mut=0.2 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_3
+[GPU 5] Running Exp 2 Run 3: Pop=1000 Mut=0.2 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_3 -c
+[GPU 4] Running Exp 2 Run 2: Pop=1000 Mut=0.2 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_2 -c
+[GPU 7] Running Exp 3 Run 2: Pop=1000 Mut=0.2 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_2
+[GPU 6] Running Exp 3 Run 1: Pop=1000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_1
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+GNU parallel not found. Using background jobs instead.
+[GPU 0] Running Exp 1 Run 1: Pop=1000 Mut=0.2 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+[GPU 2] Running Exp 1 Run 3: Pop=1000 Mut=0.2 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_3
+[GPU 5] Running Exp 2 Run 3: Pop=1000 Mut=0.2 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_3 -c
+[GPU 1] Running Exp 1 Run 2: Pop=1000 Mut=0.2 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_2
+[GPU 4] Running Exp 2 Run 2: Pop=1000 Mut=0.2 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_2 -c
+[GPU 6] Running Exp 3 Run 1: Pop=1000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_1
+[GPU 3] Running Exp 2 Run 1: Pop=1000 Mut=0.2 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_1 -c
+[GPU 7] Running Exp 3 Run 2: Pop=1000 Mut=0.2 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_2
+[GPU 1] WARNING: No results for Exp 1 Run 2
+[GPU 5] WARNING: No results for Exp 2 Run 3
+[GPU 6] WARNING: No results for Exp 3 Run 1
+[GPU 3] WARNING: No results for Exp 2 Run 1
+[GPU 7] WARNING: No results for Exp 3 Run 2
+[GPU 3] WARNING: No results for Exp 2 Run 1
+[GPU 1] WARNING: No results for Exp 1 Run 2
+[GPU 6] WARNING: No results for Exp 3 Run 1
+[GPU 2] WARNING: No results for Exp 1 Run 3
+[GPU 0] WARNING: No results for Exp 1 Run 1
+[GPU 7] WARNING: No results for Exp 3 Run 2
+[GPU 0] WARNING: No results for Exp 1 Run 1
+[GPU 4] WARNING: No results for Exp 2 Run 2
+[GPU 2] WARNING: No results for Exp 1 Run 3
+Completed batch: 8/81
+[GPU 0] Running Exp 3 Run 3: Pop=1000 Mut=0.2 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_3
+[GPU 2] Running Exp 4 Run 2: Pop=1000 Mut=0.3 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_2 -c
+[GPU 3] Running Exp 4 Run 3: Pop=1000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_3 -c
+[GPU 5] Running Exp 5 Run 2: Pop=1000 Mut=0.3 Tour=5
+[GPU 1] Running Exp 4 Run 1: Pop=1000 Mut=0.3 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_2
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_1 -c
+[GPU 4] Running Exp 5 Run 1: Pop=1000 Mut=0.3 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_1
+[GPU 6] Running Exp 5 Run 3: Pop=1000 Mut=0.3 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_3
+[GPU 7] Running Exp 6 Run 1: Pop=1000 Mut=0.3 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_1 -c
+[GPU 5] WARNING: No results for Exp 2 Run 3
+[GPU 4] WARNING: No results for Exp 2 Run 2
+Completed batch: 8/81
+[GPU 1] Running Exp 4 Run 1: Pop=1000 Mut=0.3 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_1 -c
+[GPU 2] Running Exp 4 Run 2: Pop=1000 Mut=0.3 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_2 -c
+[GPU 3] Running Exp 4 Run 3: Pop=1000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_3 -c
+[GPU 4] Running Exp 5 Run 1: Pop=1000 Mut=0.3 Tour=5
+[GPU 5] Running Exp 5 Run 2: Pop=1000 Mut=0.3 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_1
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_2
+[GPU 0] Running Exp 3 Run 3: Pop=1000 Mut=0.2 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_3
+[GPU 7] Running Exp 6 Run 1: Pop=1000 Mut=0.3 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_1 -c
+[GPU 6] Running Exp 5 Run 3: Pop=1000 Mut=0.3 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_3
+[GPU 0] WARNING: No results for Exp 3 Run 3
+[GPU 2] WARNING: No results for Exp 4 Run 2
+[GPU 5] WARNING: No results for Exp 5 Run 2
+[GPU 7] WARNING: No results for Exp 6 Run 1
+[GPU 4] WARNING: No results for Exp 5 Run 1
+[GPU 1] WARNING: No results for Exp 4 Run 1
+[GPU 7] WARNING: No results for Exp 6 Run 1
+[GPU 4] WARNING: No results for Exp 5 Run 1
+[GPU 0] WARNING: No results for Exp 3 Run 3
+[GPU 1] WARNING: No results for Exp 4 Run 1
+[GPU 2] WARNING: No results for Exp 4 Run 2
+[GPU 3] WARNING: No results for Exp 4 Run 3
+[GPU 5] WARNING: No results for Exp 5 Run 2
+[GPU 6] WARNING: No results for Exp 5 Run 3
+Completed batch: 16/81
+[GPU 3] Running Exp 7 Run 2: Pop=1000 Mut=0.4 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_2
+[GPU 1] Running Exp 6 Run 3: Pop=1000 Mut=0.3 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_3 -c
+[GPU 2] Running Exp 7 Run 1: Pop=1000 Mut=0.4 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_1
+[GPU 6] Running Exp 8 Run 2: Pop=1000 Mut=0.4 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_2 -c
+[GPU 5] Running Exp 8 Run 1: Pop=1000 Mut=0.4 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_1 -c
+[GPU 0] Running Exp 6 Run 2: Pop=1000 Mut=0.3 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_2 -c
+[GPU 4] Running Exp 7 Run 3: Pop=1000 Mut=0.4 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_3
+[GPU 7] Running Exp 8 Run 3: Pop=1000 Mut=0.4 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_3 -c
+[GPU 3] WARNING: No results for Exp 4 Run 3
+[GPU 6] WARNING: No results for Exp 5 Run 3
+Completed batch: 16/81
+[GPU 1] Running Exp 6 Run 3: Pop=1000 Mut=0.3 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_3 -c
+[GPU 0] Running Exp 6 Run 2: Pop=1000 Mut=0.3 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_2 -c
+[GPU 2] Running Exp 7 Run 1: Pop=1000 Mut=0.4 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_1
+[GPU 3] Running Exp 7 Run 2: Pop=1000 Mut=0.4 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_2
+[GPU 5] Running Exp 8 Run 1: Pop=1000 Mut=0.4 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_1 -c
+[GPU 4] Running Exp 7 Run 3: Pop=1000 Mut=0.4 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_3
+[GPU 6] Running Exp 8 Run 2: Pop=1000 Mut=0.4 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_2 -c
+[GPU 7] Running Exp 8 Run 3: Pop=1000 Mut=0.4 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bayes29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_3 -c
+[GPU 6] WARNING: No results for Exp 8 Run 2
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+GNU parallel not found. Using background jobs instead.
+[GPU 0] Running Exp 1 Run 1: Pop=1000 Mut=0.2 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+[GPU 1] Running Exp 1 Run 2: Pop=1000 Mut=0.2 Tour=3
+[GPU 2] Running Exp 1 Run 3: Pop=1000 Mut=0.2 Tour=3
+[GPU 3] Running Exp 2 Run 1: Pop=1000 Mut=0.2 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_2
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 3 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_1/run_3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_1 -c
+[GPU 4] Running Exp 2 Run 2: Pop=1000 Mut=0.2 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_2 -c
+[GPU 5] Running Exp 2 Run 3: Pop=1000 Mut=0.2 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 5 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_2/run_3 -c
+[GPU 7] Running Exp 3 Run 2: Pop=1000 Mut=0.2 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_2
+[GPU 6] Running Exp 3 Run 1: Pop=1000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_1
+[GPU 5] Exp 2 Run 3 completed successfully
+[GPU 1] Exp 1 Run 2 completed successfully
+[GPU 0] Exp 1 Run 1 completed successfully
+[GPU 3] Exp 2 Run 1 completed successfully
+[GPU 4] Exp 2 Run 2 completed successfully
+[GPU 2] Exp 1 Run 3 completed successfully
+[GPU 6] Exp 3 Run 1 completed successfully
+[GPU 7] Exp 3 Run 2 completed successfully
+Completed batch: 8/81
+[GPU 0] Running Exp 3 Run 3: Pop=1000 Mut=0.2 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.2 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_3/run_3
+[GPU 5] Running Exp 5 Run 2: Pop=1000 Mut=0.3 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_2
+[GPU 1] Running Exp 4 Run 1: Pop=1000 Mut=0.3 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_1 -c
+[GPU 3] Running Exp 4 Run 3: Pop=1000 Mut=0.3 Tour=3
+[GPU 4] Running Exp 5 Run 1: Pop=1000 Mut=0.3 Tour=5
+[GPU 2] Running Exp 4 Run 2: Pop=1000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_3 -c
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_1
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_4/run_2 -c
+[GPU 6] Running Exp 5 Run 3: Pop=1000 Mut=0.3 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 5 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_5/run_3
+[GPU 7] Running Exp 6 Run 1: Pop=1000 Mut=0.3 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_1 -c
+[GPU 6] Exp 5 Run 3 completed successfully
+[GPU 4] Exp 5 Run 1 completed successfully
+[GPU 5] Exp 5 Run 2 completed successfully
+[GPU 7] Exp 6 Run 1 completed successfully
+[GPU 2] Exp 4 Run 2 completed successfully
+[GPU 3] Exp 4 Run 3 completed successfully
+[GPU 1] Exp 4 Run 1 completed successfully
+[GPU 0] Exp 3 Run 3 completed successfully
+Completed batch: 16/81
+[GPU 1] Running Exp 6 Run 3: Pop=1000 Mut=0.3 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_3 -c
+[GPU 0] Running Exp 6 Run 2: Pop=1000 Mut=0.3 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.3 -t 7 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_6/run_2 -c
+[GPU 3] Running Exp 7 Run 2: Pop=1000 Mut=0.4 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_2
+[GPU 4] Running Exp 7 Run 3: Pop=1000 Mut=0.4 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_3
+[GPU 2] Running Exp 7 Run 1: Pop=1000 Mut=0.4 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 3 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_7/run_1
+[GPU 5] Running Exp 8 Run 1: Pop=1000 Mut=0.4 Tour=5
+[GPU 7] Running Exp 8 Run 3: Pop=1000 Mut=0.4 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_1 -c
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_3 -c
+[GPU 6] Running Exp 8 Run 2: Pop=1000 Mut=0.4 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_8/run_2 -c
+[GPU 1] Exp 6 Run 3 completed successfully
+[GPU 6] Exp 8 Run 2 completed successfully
+[GPU 0] Exp 6 Run 2 completed successfully
+[GPU 5] Exp 8 Run 1 completed successfully
+[GPU 7] Exp 8 Run 3 completed successfully
+[GPU 2] Exp 7 Run 1 completed successfully
+[GPU 4] Exp 7 Run 3 completed successfully
+[GPU 3] Exp 7 Run 2 completed successfully
+Completed batch: 24/81
+[GPU 2] Running Exp 9 Run 3: Pop=1000 Mut=0.4 Tour=7
+[GPU 1] Running Exp 9 Run 2: Pop=1000 Mut=0.4 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_2
+[GPU 0] Running Exp 9 Run 1: Pop=1000 Mut=0.4 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 1000 -m 0.4 -t 7 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_9/run_1
+[GPU 4] Running Exp 10 Run 2: Pop=2000 Mut=0.2 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_2 -c
+[GPU 3] Running Exp 10 Run 1: Pop=2000 Mut=0.2 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_1 -c
+[GPU 6] Running Exp 11 Run 1: Pop=2000 Mut=0.2 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_1
+[GPU 5] Running Exp 10 Run 3: Pop=2000 Mut=0.2 Tour=3
+[GPU 7] Running Exp 11 Run 2: Pop=2000 Mut=0.2 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_10/run_3 -c
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_2
+[GPU 2] Exp 9 Run 3 completed successfully
+[GPU 0] Exp 9 Run 1 completed successfully
+[GPU 1] Exp 9 Run 2 completed successfully
+[GPU 7] Exp 11 Run 2 completed successfully
+[GPU 6] Exp 11 Run 1 completed successfully
+[GPU 4] Exp 10 Run 2 completed successfully
+[GPU 5] Exp 10 Run 3 completed successfully
+[GPU 3] Exp 10 Run 1 completed successfully
+Completed batch: 32/81
+[GPU 0] Running Exp 11 Run 3: Pop=2000 Mut=0.2 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 5 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_11/run_3
+[GPU 1] Running Exp 12 Run 1: Pop=2000 Mut=0.2 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_1 -c
+[GPU 2] Running Exp 12 Run 2: Pop=2000 Mut=0.2 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_2 -c
+[GPU 3] Running Exp 12 Run 3: Pop=2000 Mut=0.2 Tour=7
+[GPU 5] Running Exp 13 Run 2: Pop=2000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.2 -t 7 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_12/run_3 -c
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_2
+[GPU 4] Running Exp 13 Run 1: Pop=2000 Mut=0.3 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_1
+[GPU 6] Running Exp 13 Run 3: Pop=2000 Mut=0.3 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 3 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_13/run_3
+[GPU 7] Running Exp 14 Run 1: Pop=2000 Mut=0.3 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_1 -c
+[GPU 0] Exp 11 Run 3 completed successfully
+[GPU 5] Exp 13 Run 2 completed successfully
+[GPU 6] Exp 13 Run 3 completed successfully
+[GPU 4] Exp 13 Run 1 completed successfully
+[GPU 3] Exp 12 Run 3 completed successfully
+[GPU 2] Exp 12 Run 2 completed successfully
+[GPU 7] Exp 14 Run 1 completed successfully
+[GPU 1] Exp 12 Run 1 completed successfully
+Completed batch: 40/81
+[GPU 2] Running Exp 15 Run 1: Pop=2000 Mut=0.3 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_1
+[GPU 0] Running Exp 14 Run 2: Pop=2000 Mut=0.3 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_2 -c
+[GPU 1] Running Exp 14 Run 3: Pop=2000 Mut=0.3 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_14/run_3 -c
+[GPU 5] Running Exp 16 Run 1: Pop=2000 Mut=0.4 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_1 -c
+[GPU 3] Running Exp 15 Run 2: Pop=2000 Mut=0.3 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_2
+[GPU 4] Running Exp 15 Run 3: Pop=2000 Mut=0.3 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.3 -t 7 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_15/run_3
+[GPU 6] Running Exp 16 Run 2: Pop=2000 Mut=0.4 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_2 -c
+[GPU 7] Running Exp 16 Run 3: Pop=2000 Mut=0.4 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 3 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_16/run_3 -c
+[GPU 7] Exp 16 Run 3 completed successfully
+[GPU 4] Exp 15 Run 3 completed successfully
+[GPU 6] Exp 16 Run 2 completed successfully
+[GPU 5] Exp 16 Run 1 completed successfully
+[GPU 2] Exp 15 Run 1 completed successfully
+[GPU 3] Exp 15 Run 2 completed successfully
+[GPU 0] Exp 14 Run 2 completed successfully
+[GPU 1] Exp 14 Run 3 completed successfully
+Completed batch: 48/81
+[GPU 4] Running Exp 18 Run 2: Pop=2000 Mut=0.4 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_2 -c
+[GPU 0] Running Exp 17 Run 1: Pop=2000 Mut=0.4 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_1
+[GPU 1] Running Exp 17 Run 2: Pop=2000 Mut=0.4 Tour=5
+[GPU 2] Running Exp 17 Run 3: Pop=2000 Mut=0.4 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_2
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 5 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_17/run_3
+[GPU 3] Running Exp 18 Run 1: Pop=2000 Mut=0.4 Tour=7
+[GPU 5] Running Exp 18 Run 3: Pop=2000 Mut=0.4 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_1 -c
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 2000 -m 0.4 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_18/run_3 -c
+[GPU 6] Running Exp 19 Run 1: Pop=3000 Mut=0.2 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_1
+[GPU 7] Running Exp 19 Run 2: Pop=3000 Mut=0.2 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_2
+[GPU 2] Exp 17 Run 3 completed successfully
+[GPU 4] Exp 18 Run 2 completed successfully
+[GPU 5] Exp 18 Run 3 completed successfully
+[GPU 1] Exp 17 Run 2 completed successfully
+[GPU 0] Exp 17 Run 1 completed successfully
+[GPU 3] Exp 18 Run 1 completed successfully
+[GPU 6] Exp 19 Run 1 completed successfully
+[GPU 7] Exp 19 Run 2 completed successfully
+Completed batch: 56/81
+[GPU 0] Running Exp 19 Run 3: Pop=3000 Mut=0.2 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 3 -v 20 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_19/run_3
+[GPU 2] Running Exp 20 Run 2: Pop=3000 Mut=0.2 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_20/run_2 -c
+[GPU 3] Running Exp 20 Run 3: Pop=3000 Mut=0.2 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_20/run_3 -c
+[GPU 1] Running Exp 20 Run 1: Pop=3000 Mut=0.2 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_20/run_1 -c
+[GPU 4] Running Exp 21 Run 1: Pop=3000 Mut=0.2 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 7 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_21/run_1
+[GPU 5] Running Exp 21 Run 2: Pop=3000 Mut=0.2 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 7 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_21/run_2
+[GPU 6] Running Exp 21 Run 3: Pop=3000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.2 -t 7 -v 15 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_21/run_3
+[GPU 7] Running Exp 22 Run 1: Pop=3000 Mut=0.3 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 3 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_22/run_1 -c
+[GPU 4] Exp 21 Run 1 completed successfully
+[GPU 5] Exp 21 Run 2 completed successfully
+[GPU 6] Exp 21 Run 3 completed successfully
+[GPU 7] Exp 22 Run 1 completed successfully
+[GPU 0] Exp 19 Run 3 completed successfully
+[GPU 3] Exp 20 Run 3 completed successfully
+[GPU 1] Exp 20 Run 1 completed successfully
+[GPU 2] Exp 20 Run 2 completed successfully
+Completed batch: 64/81
+[GPU 2] Running Exp 23 Run 1: Pop=3000 Mut=0.3 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 5 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_23/run_1
+[GPU 1] Running Exp 22 Run 3: Pop=3000 Mut=0.3 Tour=3
+[GPU 0] Running Exp 22 Run 2: Pop=3000 Mut=0.3 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 3 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_22/run_3 -c
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 3 -v 30 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_22/run_2 -c
+[GPU 3] Running Exp 23 Run 2: Pop=3000 Mut=0.3 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 5 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_23/run_2
+[GPU 5] Running Exp 24 Run 1: Pop=3000 Mut=0.3 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 7 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_24/run_1 -c
+[GPU 4] Running Exp 23 Run 3: Pop=3000 Mut=0.3 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 5 -v 15 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_23/run_3
+[GPU 6] Running Exp 24 Run 2: Pop=3000 Mut=0.3 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 7 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_24/run_2 -c
+[GPU 7] Running Exp 24 Run 3: Pop=3000 Mut=0.3 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.3 -t 7 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_24/run_3 -c
+[GPU 1] Exp 22 Run 3 completed successfully
+[GPU 4] Exp 23 Run 3 completed successfully
+[GPU 0] Exp 22 Run 2 completed successfully
+[GPU 5] Exp 24 Run 1 completed successfully
+[GPU 2] Exp 23 Run 1 completed successfully
+[GPU 6] Exp 24 Run 2 completed successfully
+[GPU 7] Exp 24 Run 3 completed successfully
+[GPU 3] Exp 23 Run 2 completed successfully
+Completed batch: 72/81
+[GPU 0] Running Exp 25 Run 1: Pop=3000 Mut=0.4 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 3 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_25/run_1
+[GPU 1] Running Exp 25 Run 2: Pop=3000 Mut=0.4 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 3 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_25/run_2
+[GPU 4] Running Exp 26 Run 2: Pop=3000 Mut=0.4 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 5 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_26/run_2 -c
+[GPU 2] Running Exp 25 Run 3: Pop=3000 Mut=0.4 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 3 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_25/run_3
+[GPU 3] Running Exp 26 Run 1: Pop=3000 Mut=0.4 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 5 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_26/run_1 -c
+[GPU 6] Running Exp 27 Run 1: Pop=3000 Mut=0.4 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 7 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_27/run_1
+[GPU 7] Running Exp 27 Run 2: Pop=3000 Mut=0.4 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 7 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_27/run_2
+[GPU 5] Running Exp 26 Run 3: Pop=3000 Mut=0.4 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 5 -v 20 -s 1000 -o 0 -g 5000 -l taguchi_results/exp_26/run_3 -c
+[GPU 4] Exp 26 Run 2 completed successfully
+[GPU 3] Exp 26 Run 1 completed successfully
+[GPU 5] Exp 26 Run 3 completed successfully
+[GPU 6] Exp 27 Run 1 completed successfully
+[GPU 7] Exp 27 Run 2 completed successfully
+[GPU 2] Exp 25 Run 3 completed successfully
+[GPU 1] Exp 25 Run 2 completed successfully
+[GPU 0] Exp 25 Run 1 completed successfully
+Completed batch: 80/81
+==================================================
+All experiments completed!
+Results saved to: taguchi_results/experiment_summary.csv
+==================================================
+
+Summary Statistics:
+Total experiments run: 27
+Total configurations tested: 81
+[GPU 0] Running Exp 27 Run 3: Pop=3000 Mut=0.4 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 3000 -m 0.4 -t 7 -v 30 -s 1500 -o 0 -g 5000 -l taguchi_results/exp_27/run_3
+Results file lines: 801
+[GPU 0] Exp 27 Run 3 completed successfully
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+GNU parallel not found. Using background jobs instead.
+[GPU 1] Running Exp 1 Run 2: Pop=4000 Mut=0.2 Tour=5
+[GPU 3] Running Exp 2 Run 1: Pop=4000 Mut=0.2 Tour=10
+[GPU 0] Running Exp 1 Run 1: Pop=4000 Mut=0.2 Tour=5
+[GPU 2] Running Exp 1 Run 3: Pop=4000 Mut=0.2 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_1/run_2
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 10 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_2/run_1 -c
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_1/run_3
+[GPU 4] Running Exp 2 Run 2: Pop=4000 Mut=0.2 Tour=10
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 10 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_2/run_2 -c
+[GPU 5] Running Exp 2 Run 3: Pop=4000 Mut=0.2 Tour=10
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 10 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_2/run_3 -c
+[GPU 7] Running Exp 3 Run 2: Pop=4000 Mut=0.2 Tour=15
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 15 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_3/run_2
+[GPU 6] Running Exp 3 Run 1: Pop=4000 Mut=0.2 Tour=15
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 15 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_3/run_1
+Total experiments to run: 81
+Using 8 GPUs in parallel
+==================================================
+GNU parallel not found. Using background jobs instead.
+[GPU 1] Running Exp 1 Run 2: Pop=4000 Mut=0.2 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 3 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_1/run_2
+[GPU 0] Running Exp 1 Run 1: Pop=4000 Mut=0.2 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 3 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_1/run_1
+[GPU 2] Running Exp 1 Run 3: Pop=4000 Mut=0.2 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 3 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_1/run_3
+[GPU 4] Running Exp 2 Run 2: Pop=4000 Mut=0.2 Tour=5
+[GPU 5] Running Exp 2 Run 3: Pop=4000 Mut=0.2 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 5 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_2/run_2 -c
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 5 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_2/run_3 -c
+[GPU 3] Running Exp 2 Run 1: Pop=4000 Mut=0.2 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 5 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_2/run_1 -c
+[GPU 6] Running Exp 3 Run 1: Pop=4000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 7 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_3/run_1
+[GPU 7] Running Exp 3 Run 2: Pop=4000 Mut=0.2 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 7 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_3/run_2
+[GPU 1] Exp 1 Run 2 completed successfully
+[GPU 4] Exp 2 Run 2 completed successfully
+[GPU 2] Exp 1 Run 3 completed successfully
+[GPU 0] Exp 1 Run 1 completed successfully
+[GPU 5] Exp 2 Run 3 completed successfully
+[GPU 3] Exp 2 Run 1 completed successfully
+[GPU 6] Exp 3 Run 1 completed successfully
+[GPU 7] Exp 3 Run 2 completed successfully
+Completed batch: 8/81
+[GPU 0] Running Exp 3 Run 3: Pop=4000 Mut=0.2 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.2 -t 7 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_3/run_3
+[GPU 2] Running Exp 4 Run 2: Pop=4000 Mut=0.3 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 3 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_4/run_2 -c
+[GPU 4] Running Exp 5 Run 1: Pop=4000 Mut=0.3 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_5/run_1
+[GPU 5] Running Exp 5 Run 2: Pop=4000 Mut=0.3 Tour=5
+[GPU 1] Running Exp 4 Run 1: Pop=4000 Mut=0.3 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_5/run_2
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 3 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_4/run_1 -c
+[GPU 3] Running Exp 4 Run 3: Pop=4000 Mut=0.3 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 3 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_4/run_3 -c
+[GPU 6] Running Exp 5 Run 3: Pop=4000 Mut=0.3 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 5 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_5/run_3
+[GPU 7] Running Exp 6 Run 1: Pop=4000 Mut=0.3 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 7 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_6/run_1 -c
+[GPU 7] Exp 6 Run 1 completed successfully
+[GPU 5] Exp 5 Run 2 completed successfully
+[GPU 4] Exp 5 Run 1 completed successfully
+[GPU 6] Exp 5 Run 3 completed successfully
+[GPU 1] Exp 4 Run 1 completed successfully
+[GPU 2] Exp 4 Run 2 completed successfully
+[GPU 3] Exp 4 Run 3 completed successfully
+[GPU 0] Exp 3 Run 3 completed successfully
+Completed batch: 16/81
+[GPU 0] Running Exp 6 Run 2: Pop=4000 Mut=0.3 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 7 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_6/run_2 -c
+[GPU 1] Running Exp 6 Run 3: Pop=4000 Mut=0.3 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.3 -t 7 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_6/run_3 -c
+[GPU 3] Running Exp 7 Run 2: Pop=4000 Mut=0.4 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 3 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_7/run_2
+[GPU 2] Running Exp 7 Run 1: Pop=4000 Mut=0.4 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 3 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_7/run_1
+[GPU 4] Running Exp 7 Run 3: Pop=4000 Mut=0.4 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 3 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_7/run_3
+[GPU 5] Running Exp 8 Run 1: Pop=4000 Mut=0.4 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 5 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_8/run_1 -c
+[GPU 6] Running Exp 8 Run 2: Pop=4000 Mut=0.4 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 5 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_8/run_2 -c
+[GPU 7] Running Exp 8 Run 3: Pop=4000 Mut=0.4 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 5 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_8/run_3 -c
+[GPU 1] Exp 6 Run 3 completed successfully
+[GPU 6] Exp 8 Run 2 completed successfully
+[GPU 7] Exp 8 Run 3 completed successfully
+[GPU 5] Exp 8 Run 1 completed successfully
+[GPU 0] Exp 6 Run 2 completed successfully
+[GPU 3] Exp 7 Run 2 completed successfully
+[GPU 4] Exp 7 Run 3 completed successfully
+[GPU 2] Exp 7 Run 1 completed successfully
+Completed batch: 24/81
+[GPU 0] Running Exp 9 Run 1: Pop=4000 Mut=0.4 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 7 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_9/run_1
+[GPU 1] Running Exp 9 Run 2: Pop=4000 Mut=0.4 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 7 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_9/run_2
+[GPU 3] Running Exp 10 Run 1: Pop=5000 Mut=0.2 Tour=3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 3 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_10/run_1 -c
+[GPU 4] Running Exp 10 Run 2: Pop=5000 Mut=0.2 Tour=3
+[GPU 2] Running Exp 9 Run 3: Pop=4000 Mut=0.4 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 3 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_10/run_2 -c
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 4000 -m 0.4 -t 7 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_9/run_3
+[GPU 5] Running Exp 10 Run 3: Pop=5000 Mut=0.2 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 3 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_10/run_3 -c
+[GPU 6] Running Exp 11 Run 1: Pop=5000 Mut=0.2 Tour=5
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_11/run_1
+[GPU 7] Running Exp 11 Run 2: Pop=5000 Mut=0.2 Tour=5
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_11/run_2
+[GPU 2] Exp 9 Run 3 completed successfully
+[GPU 1] Exp 9 Run 2 completed successfully
+[GPU 0] Exp 9 Run 1 completed successfully
+[GPU 7] Exp 11 Run 2 completed successfully
+[GPU 6] Exp 11 Run 1 completed successfully
+[GPU 5] Exp 10 Run 3 completed successfully
+[GPU 4] Exp 10 Run 2 completed successfully
+[GPU 3] Exp 10 Run 1 completed successfully
+Completed batch: 32/81
+[GPU 0] Running Exp 11 Run 3: Pop=5000 Mut=0.2 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 5 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_11/run_3
+[GPU 4] Running Exp 13 Run 1: Pop=5000 Mut=0.3 Tour=3
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 3 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_13/run_1
+[GPU 1] Running Exp 12 Run 1: Pop=5000 Mut=0.2 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 7 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_12/run_1 -c
+[GPU 2] Running Exp 12 Run 2: Pop=5000 Mut=0.2 Tour=7
+[GPU 3] Running Exp 12 Run 3: Pop=5000 Mut=0.2 Tour=7
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 7 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_12/run_2 -c
+[GPU 7] Running Exp 14 Run 1: Pop=5000 Mut=0.3 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.2 -t 7 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_12/run_3 -c
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 5 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_14/run_1 -c
+[GPU 6] Running Exp 13 Run 3: Pop=5000 Mut=0.3 Tour=3
+[GPU 5] Running Exp 13 Run 2: Pop=5000 Mut=0.3 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 3 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_13/run_3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 3 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_13/run_2
+[GPU 0] Exp 11 Run 3 completed successfully
+[GPU 4] Exp 13 Run 1 completed successfully
+[GPU 6] Exp 13 Run 3 completed successfully
+[GPU 2] Exp 12 Run 2 completed successfully
+[GPU 7] Exp 14 Run 1 completed successfully
+[GPU 5] Exp 13 Run 2 completed successfully
+[GPU 1] Exp 12 Run 1 completed successfully
+[GPU 3] Exp 12 Run 3 completed successfully
+Completed batch: 40/81
+[GPU 0] Running Exp 14 Run 2: Pop=5000 Mut=0.3 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 5 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_14/run_2 -c
+[GPU 2] Running Exp 15 Run 1: Pop=5000 Mut=0.3 Tour=7
+[GPU 1] Running Exp 14 Run 3: Pop=5000 Mut=0.3 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_15/run_1
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 5 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_14/run_3 -c
+[GPU 4] Running Exp 15 Run 3: Pop=5000 Mut=0.3 Tour=7
+[GPU 3] Running Exp 15 Run 2: Pop=5000 Mut=0.3 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_15/run_3
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.3 -t 7 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_15/run_2
+[GPU 6] Running Exp 16 Run 2: Pop=5000 Mut=0.4 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_16/run_2 -c
+[GPU 7] Running Exp 16 Run 3: Pop=5000 Mut=0.4 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_16/run_3 -c
+[GPU 5] Running Exp 16 Run 1: Pop=5000 Mut=0.4 Tour=3
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 3 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_16/run_1 -c
+[GPU 6] Exp 16 Run 2 completed successfully
+[GPU 5] Exp 16 Run 1 completed successfully
+[GPU 7] Exp 16 Run 3 completed successfully
+[GPU 2] Exp 15 Run 1 completed successfully
+[GPU 4] Exp 15 Run 3 completed successfully
+[GPU 1] Exp 14 Run 3 completed successfully
+[GPU 3] Exp 15 Run 2 completed successfully
+[GPU 0] Exp 14 Run 2 completed successfully
+Completed batch: 48/81
+[GPU 2] Running Exp 17 Run 3: Pop=5000 Mut=0.4 Tour=5
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 5 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_17/run_3
+[GPU 0] Running Exp 17 Run 1: Pop=5000 Mut=0.4 Tour=5
+[GPU 1] Running Exp 17 Run 2: Pop=5000 Mut=0.4 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 5 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_17/run_1
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 5 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_17/run_2
+[GPU 3] Running Exp 18 Run 1: Pop=5000 Mut=0.4 Tour=7
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 7 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_18/run_1 -c
+[GPU 4] Running Exp 18 Run 2: Pop=5000 Mut=0.4 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 7 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_18/run_2 -c
+[GPU 5] Running Exp 18 Run 3: Pop=5000 Mut=0.4 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 5000 -m 0.4 -t 7 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_18/run_3 -c
+[GPU 6] Running Exp 19 Run 1: Pop=6000 Mut=0.2 Tour=3
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 3 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_19/run_1
+[GPU 7] Running Exp 19 Run 2: Pop=6000 Mut=0.2 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 3 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_19/run_2
+[GPU 4] Exp 18 Run 2 completed successfully
+[GPU 5] Exp 18 Run 3 completed successfully
+[GPU 3] Exp 18 Run 1 completed successfully
+[GPU 0] Exp 17 Run 1 completed successfully
+[GPU 1] Exp 17 Run 2 completed successfully
+[GPU 2] Exp 17 Run 3 completed successfully
+[GPU 7] Exp 19 Run 2 completed successfully
+[GPU 6] Exp 19 Run 1 completed successfully
+Completed batch: 56/81
+[GPU 0] Running Exp 19 Run 3: Pop=6000 Mut=0.2 Tour=3
+[GPU 2] Running Exp 20 Run 2: Pop=6000 Mut=0.2 Tour=5
+[GPU 3] Running Exp 20 Run 3: Pop=6000 Mut=0.2 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 3 -v 20 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_19/run_3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 5 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_20/run_2 -c
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 5 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_20/run_3 -c
+[GPU 6] Running Exp 21 Run 3: Pop=6000 Mut=0.2 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_21/run_3
+[GPU 4] Running Exp 21 Run 1: Pop=6000 Mut=0.2 Tour=7
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_21/run_1
+[GPU 1] Running Exp 20 Run 1: Pop=6000 Mut=0.2 Tour=5
+[GPU 5] Running Exp 21 Run 2: Pop=6000 Mut=0.2 Tour=7
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 5 -v 30 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_20/run_1 -c
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.2 -t 7 -v 15 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_21/run_2
+[GPU 7] Running Exp 22 Run 1: Pop=6000 Mut=0.3 Tour=3
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_22/run_1 -c
+[GPU 4] Exp 21 Run 1 completed successfully
+[GPU 5] Exp 21 Run 2 completed successfully
+[GPU 6] Exp 21 Run 3 completed successfully
+[GPU 7] Exp 22 Run 1 completed successfully
+[GPU 0] Exp 19 Run 3 completed successfully
+[GPU 3] Exp 20 Run 3 completed successfully
+[GPU 1] Exp 20 Run 1 completed successfully
+[GPU 2] Exp 20 Run 2 completed successfully
+Completed batch: 64/81
+[GPU 0] Running Exp 22 Run 2: Pop=6000 Mut=0.3 Tour=3
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_22/run_2 -c
+[GPU 1] Running Exp 22 Run 3: Pop=6000 Mut=0.3 Tour=3
+[GPU 2] Running Exp 23 Run 1: Pop=6000 Mut=0.3 Tour=5
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 3 -v 30 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_22/run_3 -c
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 5 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_23/run_1
+[GPU 3] Running Exp 23 Run 2: Pop=6000 Mut=0.3 Tour=5
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 5 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_23/run_2
+[GPU 7] Running Exp 24 Run 3: Pop=6000 Mut=0.3 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 7 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_24/run_3 -c
+[GPU 5] Running Exp 24 Run 1: Pop=6000 Mut=0.3 Tour=7
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 7 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_24/run_1 -c
+[GPU 6] Running Exp 24 Run 2: Pop=6000 Mut=0.3 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 7 -v 20 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_24/run_2 -c
+[GPU 4] Running Exp 23 Run 3: Pop=6000 Mut=0.3 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.3 -t 5 -v 15 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_23/run_3
+[GPU 1] Exp 22 Run 3 completed successfully
+[GPU 4] Exp 23 Run 3 completed successfully
+[GPU 0] Exp 22 Run 2 completed successfully
+[GPU 2] Exp 23 Run 1 completed successfully
+[GPU 3] Exp 23 Run 2 completed successfully
+[GPU 7] Exp 24 Run 3 completed successfully
+[GPU 5] Exp 24 Run 1 completed successfully
+[GPU 6] Exp 24 Run 2 completed successfully
+Completed batch: 72/81
+[GPU 0] Running Exp 25 Run 1: Pop=6000 Mut=0.4 Tour=3
+[GPU 3] Running Exp 26 Run 1: Pop=6000 Mut=0.4 Tour=5
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 3 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_25/run_1
+[GPU 3] Command: CUDA_VISIBLE_DEVICES=3 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_26/run_1 -c
+[GPU 1] Running Exp 25 Run 2: Pop=6000 Mut=0.4 Tour=3
+[GPU 1] Command: CUDA_VISIBLE_DEVICES=1 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 3 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_25/run_2
+[GPU 2] Running Exp 25 Run 3: Pop=6000 Mut=0.4 Tour=3
+[GPU 2] Command: CUDA_VISIBLE_DEVICES=2 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 3 -v 15 -s 3000 -o 0 -g 5000 -l taguchi_results/exp_25/run_3
+[GPU 4] Running Exp 26 Run 2: Pop=6000 Mut=0.4 Tour=5
+[GPU 4] Command: CUDA_VISIBLE_DEVICES=4 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_26/run_2 -c
+[GPU 7] Running Exp 27 Run 2: Pop=6000 Mut=0.4 Tour=7
+[GPU 7] Command: CUDA_VISIBLE_DEVICES=7 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 7 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_27/run_2
+[GPU 5] Running Exp 26 Run 3: Pop=6000 Mut=0.4 Tour=5
+[GPU 5] Command: CUDA_VISIBLE_DEVICES=5 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 5 -v 20 -s 2000 -o 0 -g 5000 -l taguchi_results/exp_26/run_3 -c
+[GPU 6] Running Exp 27 Run 1: Pop=6000 Mut=0.4 Tour=7
+[GPU 6] Command: CUDA_VISIBLE_DEVICES=6 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 7 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_27/run_1
+[GPU 5] Exp 26 Run 3 completed successfully
+[GPU 4] Exp 26 Run 2 completed successfully
+[GPU 3] Exp 26 Run 1 completed successfully
+[GPU 6] Exp 27 Run 1 completed successfully
+[GPU 0] Exp 25 Run 1 completed successfully
+[GPU 7] Exp 27 Run 2 completed successfully
+[GPU 1] Exp 25 Run 2 completed successfully
+[GPU 2] Exp 25 Run 3 completed successfully
+Completed batch: 80/81
+==================================================
+All experiments completed!
+Results saved to: taguchi_results/experiment_summary.csv
+==================================================
+
+Summary Statistics:
+Total experiments run: 27
+Total configurations tested: 81
+Results file lines: 801
+[GPU 0] Running Exp 27 Run 3: Pop=6000 Mut=0.4 Tour=7
+[GPU 0] Command: CUDA_VISIBLE_DEVICES=0 ./build/ga_solver -d bays29,berlin52,eil101,eil51,eil76,fri26,gr17,gr21,gr24,gr48 -p 6000 -m 0.4 -t 7 -v 30 -s 2500 -o 0 -g 5000 -l taguchi_results/exp_27/run_3
+[GPU 0] Exp 27 Run 3 completed successfully

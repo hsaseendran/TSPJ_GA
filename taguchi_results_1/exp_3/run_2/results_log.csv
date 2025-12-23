@@ -1,0 +1,11 @@
+Dataset Name,Best Fitness,Solution Generation,Total Generations,Total Time (s),Time Per Generation (s),Mode,Extra Info
+bays29,3014,2853,5000,76.8835,0.0269389,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+berlin52,11880.8,1888,5000,60.9238,0.0322519,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+eil101,1053.76,4856,5000,82.8181,0.0170513,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+eil51,645.71,2576,5000,72.5759,0.0281629,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+eil76,883.01,4166,5000,80.4599,0.0193088,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+fri26,1320,917,5000,44.8321,0.0488367,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+gr17,2760,164,5000,33.0026,0.200016,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+gr21,8150,3215,5000,76.337,0.0237366,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+gr24,1823,4427,5000,75.4519,0.0170397,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
+gr48,7799,2227,5000,65.214,0.0292702,0,pop=1000,mut=0.2,tour=7,div=30%,crossover=EAX,mutation=Batch2opt
